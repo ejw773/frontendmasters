@@ -14,13 +14,48 @@
 
 			/* Reset Styles */
 			img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
-			
-			
+			table { border-collapse: collapse !important; }
+			body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
+
+			/* Blue Links: requires resetting 6 different attributes for each client */
+			/* iOS Blue Links */
+			a[x-apple-data-detectors] {
+				color: inherit !important;
+				text-decoration: none;
+				font-size: inherit !important;
+				font-family: inherit !important;
+				font-weight: inherit !important;
+				line-height: inherit !important;
+			}
+
+			/* Gmail Blue Links */
+			u + #body a {
+				color: inherit;
+				text-decoration: none;
+				font-size: inherit;
+				font-family: inherit;
+				font-weight: inherit;
+				line-height: inherit;
+			}
+
+			/* Samsung Mail Blue Links */
+			#MessageViewBody a {
+				color: inherit;
+				text-decoration: none;
+				font-size: inherit;
+				font-family: inherit;
+				font-weight: inherit;
+				line-height: inherit;
+			}
+
+			/* Universal Styles */
+
+			/* Responsive Styles */
 
 		</style>
 	</head>
 	<body id="body" style="margin: 0 !important; padding: 0 !important;">
-
+		
 		
 
 	</body>
